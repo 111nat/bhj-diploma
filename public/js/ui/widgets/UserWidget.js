@@ -12,7 +12,15 @@ class UserWidget {
    * необходимо выкинуть ошибку.
    * */
   constructor(element){
-
+    try {
+      if (element == undefined) {
+        throw new Error();
+      }
+      this.element = element;
+    }
+    catch (e) {
+      console.log(e);
+    }
   }
 
   /**
@@ -23,6 +31,8 @@ class UserWidget {
    * авторизованного пользователя
    * */
   update(){
-
+    if (User.current()) {
+      document.getElementsByClassName('user-name')[0].innerHTML = User.current().name;
+    }
   }
 }

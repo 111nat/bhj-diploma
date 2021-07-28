@@ -1,0 +1,369 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1"
+    },
+    {
+      "name": "aa",
+      "email": "aa@a",
+      "password": "a",
+      "id": "4507peo3kkrkkyffi"
+    },
+    {
+      "name": "aa",
+      "email": "aa@aa",
+      "password": "a",
+      "id": "4507pelt4krkolt53"
+    },
+    {
+      "name": "aa",
+      "email": "aa@aaa",
+      "password": "a",
+      "id": "4507pehn8krkpw0vl"
+    },
+    {
+      "name": "aa",
+      "email": "aa@ab",
+      "password": "a",
+      "id": "4507peobgkrkvud7s"
+    },
+    {
+      "name": "alex",
+      "email": "alex@alex",
+      "password": "alex",
+      "id": "4507peuackrm2slja"
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Банк",
+      "user_id": "1",
+      "id": "1"
+    },
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Бизнес",
+      "user_id": "1",
+      "id": "3"
+    },
+    {
+      "name": "aa",
+      "user_id": "4507peuackrm2slja",
+      "id": "4507pes0kkrm67l6j"
+    },
+    {
+      "name": "yes",
+      "user_id": "4507peuackrm2slja",
+      "id": "4507pesy8krm8nqzn"
+    },
+    {
+      "name": "yes 12",
+      "user_id": "4507peuackrm2slja",
+      "id": "4507pevq8krm8w4eb"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "1",
+      "created_at": "2019-09-15 10:24:02",
+      "id": "1",
+      "name": "Кредит",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-17 15:53:02",
+      "id": "2",
+      "name": "Баланс на дебетовке",
+      "sum": 3200,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-19 20:12:02",
+      "id": "3",
+      "name": "Копилка",
+      "sum": 1500,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "17",
+      "name": "Овощи",
+      "sum": 300,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 14:47:02",
+      "id": "6",
+      "name": "Мясо",
+      "sum": 600,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-27 13:27:02",
+      "id": "7",
+      "name": "Долг в банк",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "9",
+      "name": "На банду",
+      "sum": 15000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-17 13:27:02",
+      "id": "10",
+      "name": "На стволы",
+      "sum": 6000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-12-27 13:27:02",
+      "id": "11",
+      "name": "Прибыль с банка",
+      "sum": 1500000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "12",
+      "name": "Прибыль с магазина",
+      "sum": 300000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "13",
+      "name": "Подарок сизого",
+      "sum": 20000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-15 13:27:02",
+      "id": "14",
+      "name": "На охрану",
+      "sum": 60000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "15",
+      "name": "На бумер",
+      "sum": 300000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "4507petuckrmfgzmq",
+      "type": "income",
+      "name": "голод",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-27T19:04:07.777Z"
+    },
+    {
+      "id": "4507ped7skrnitzh0",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:25:59.123Z"
+    },
+    {
+      "id": "4507pel34krnj5nn8",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:35:03.667Z"
+    },
+    {
+      "id": "4507pet1gkrnj66fv",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:35:28.026Z"
+    },
+    {
+      "id": "4507peikskrnj87p2",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:37:02.965Z"
+    },
+    {
+      "id": "4507pewkwkrnjaafu",
+      "type": "",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:38:39.833Z"
+    },
+    {
+      "id": "4507pep4wkrnjapok",
+      "type": "",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:38:59.587Z"
+    },
+    {
+      "id": "4507pepw8krnjcssq",
+      "type": "expense",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:40:36.937Z"
+    },
+    {
+      "id": "4507peswckrnjcxu1",
+      "type": "",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:40:43.464Z"
+    },
+    {
+      "id": "4507pesi8krnjd39p",
+      "type": "",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:40:50.508Z"
+    },
+    {
+      "id": "4507penxokrnjwcnm",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:55:49.137Z"
+    },
+    {
+      "id": "4507pe6ykkrnjwqgp",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:56:07.032Z"
+    },
+    {
+      "id": "4507pet04krnjwz1o",
+      "type": "",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:56:18.155Z"
+    },
+    {
+      "id": "4507pe9w8krnjx3u2",
+      "type": "",
+      "name": "a",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:56:24.361Z"
+    },
+    {
+      "id": "4507pesrokrnjycna",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T13:57:22.437Z"
+    },
+    {
+      "id": "4507peqdkkrnk5swg",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T14:03:10.095Z"
+    },
+    {
+      "id": "4507perywkrnkb6fe",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T14:07:20.905Z"
+    },
+    {
+      "id": "4507pewu8krnlbjwm",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T14:35:37.989Z"
+    },
+    {
+      "id": "4507pertgkrnlgp29",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T14:39:37.952Z"
+    },
+    {
+      "id": "4507pe6kkkrnlhmgx",
+      "type": "income",
+      "name": "aa",
+      "sum": 100,
+      "user_id": "4507peuackrm2slja",
+      "created_at": "2021-07-28T14:40:21.248Z"
+    }
+  ]
+}
